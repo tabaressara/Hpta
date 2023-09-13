@@ -1,0 +1,24 @@
+
+.header {
+    background-color: #E5E9F2;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 58px;
+}
+
+.links {
+    text-decoration: none;
+    padding: 15px;
+    color: #183554;
+}
+
+.pies {
+    background-color: #183554;
+    height: 80px;
+    display: flex;
+    align-items: center;
+  }

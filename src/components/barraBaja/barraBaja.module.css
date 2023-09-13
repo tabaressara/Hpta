@@ -1,0 +1,28 @@
+
+.pies {
+    background-color: #47525E;
+    height: 160px;
+    display: flex;
+    align-items: center;
+  }
+
+  .logo {
+    width: 58px;
+}
+
+.links {
+    text-decoration: none;
+    padding: 15px;
+    color: #183554;
+}
+
+.contactanos {
+    color: white;
+    font-size: 18px;
+}
+
+.email {
+    width: 64px;
+    height: 64px;
+    padding-left: 1560px;
+}
