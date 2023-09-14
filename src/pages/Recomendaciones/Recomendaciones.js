@@ -3,12 +3,14 @@ import Navigator from "../../components/NavigatorBar/Navigator";
 import styles from "./Recomendaciones.module.css";
 import Contacto from "../../components/barraBaja/barraBaja";
 import Login from "../../components/Login/LoginModal";
+import Registrarse from "../../components/Registrarse/Registrarse";
 
 function Recomendaciones() {
     return (
         <div className = {styles.fondo}>
             <Login/>
             <Navigator/>
+            <Registrarse/>
             <div className = {styles.base}>
                 <img src="imagen5.jpg" className = {styles.imagen} alt="Imagen" />
                 <div>

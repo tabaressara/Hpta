@@ -3,14 +3,14 @@ import Navigator from "../../components/NavigatorBar/Navigator";
 import styles from "./Principal.module.css";
 import Contacto from "../../components/barraBaja/barraBaja";
 import Login from "../../components/Login/LoginModal";
-
-
+import Registrarse from "../../components/Registrarse/Registrarse";
 
 function PáginaPrincipal() {
     return (
         <div className = {styles.fondo}>
             <Login/>
             <Navigator/>
+            <Registrarse/>
             <div className = {styles.base}>
                 <img src="fotoInicio.jpg" className = {styles.imagen} alt="Imagen" />
                 <div>

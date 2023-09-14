@@ -3,12 +3,14 @@ import Navigator from "../../components/NavigatorBar/Navigator";
 import styles from "./Partidos.module.css"
 import Contacto from "../../components/barraBaja/barraBaja";
 import Login from "../../components/Login/LoginModal";
+import Registrarse from "../../components/Registrarse/Registrarse";
 
 function Partidos() {
     return (
         <div className = {styles.fondo}>
             <Login/>
             <Navigator/>
+            <Registrarse/>
             <div className = {styles.base}>
                 <img src="imagen6.jpg" className = {styles.imagen} alt="Imagen" />
                 <div>

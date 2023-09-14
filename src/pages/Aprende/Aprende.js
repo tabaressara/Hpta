@@ -3,12 +3,14 @@ import Navigator from "../../components/NavigatorBar/Navigator";
 import styles from "./Aprende.module.css"
 import Contacto from "../../components/barraBaja/barraBaja";
 import Login from "../../components/Login/LoginModal";
+import Registrarse from "../../components/Registrarse/Registrarse";
 
 function Aprende() {
     return (
         <div className = {styles.fondo}>
             <Login/>
             <Navigator/>
+            <Registrarse/>
             <div className = {styles.base}>
                 <img src="imagen3.jpg" className = {styles.imagen} alt="Imagen" />
                 <div>

@@ -3,12 +3,14 @@ import Navigator from "../../components/NavigatorBar/Navigator";
 import styles from "./Reglamento.module.css"
 import Contacto from "../../components/barraBaja/barraBaja";
 import Login from "../../components/Login/LoginModal";
+import Registrarse from "../../components/Registrarse/Registrarse";
 
 function Reglamento() {
     return (
         <div className = {styles.fondo}>
             <Login/>
             <Navigator/>
+            <Registrarse/>
             <div className = {styles.base}>
                 <img src="imagen4.jpg" className = {styles.imagen} alt="Imagen" />
                 <div>
