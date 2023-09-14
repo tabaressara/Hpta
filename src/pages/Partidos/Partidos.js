@@ -21,7 +21,7 @@ function Partidos() {
                         ¡Prepárate para jugar y <br/>
                         disfrutar al máximo en la cancha!</p>
                     <button className = {styles.boton}>
-                        ver reglamento
+                        ver partidos
                     </button>
                 </div>
             </div>

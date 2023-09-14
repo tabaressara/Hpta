@@ -4,8 +4,7 @@ import styles from "./Navigator.module.css";
 function Navigator() {
 
     return(
-        <div>
-            <div className={styles.header}>
+        <nav className = {styles.header}>
                 <Link to = '/' className = {styles.links}>
                     <img 
                         src='Logo.png'  
@@ -24,9 +23,7 @@ function Navigator() {
                 <Link to = '/Partidos' className = {styles.links}>
                     Partidos
                 </Link>
-            </div>
-        </div>
-        
+        </nav>
     );
 }
 
