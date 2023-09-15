@@ -23,9 +23,6 @@ function Aprende() {
                         cuidadosamente seleccionados para avanzar en tu viaje de aprendizaje. 
                         Sumérgete en la experiencia y descubre cómo tus habilidades en <br/>
                         el voleibol despegarán a nuevos niveles.</p>
-                    <button className = {styles.boton}>
-                        Aprende a jugar
-                    </button>
                 </div>
             </div>
             <Contacto/>

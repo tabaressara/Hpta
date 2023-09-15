@@ -13,14 +13,11 @@ function PáginaPrincipal() {
             <Registrarse/>
             <div className = {styles.base}>
                 <img src="fotoInicio.jpg" className = {styles.imagen} alt="Imagen" />
-                <div>
+                <div> 
                     <p className = {styles.texto}>
                     El voleibol es más que un deporte, es una pasión que te llevará a nuevas alturas. 
                     <br/><br/><br/>
                     ¡Sé parte de nuestro equipo y descubre tu potencial en la red!</p>
-                    <button className = {styles.boton}>
-                        Regístrese ahora
-                    </button>
                 </div>
             </div>
             <div>

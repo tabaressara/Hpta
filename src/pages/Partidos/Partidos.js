@@ -20,9 +20,6 @@ function Partidos() {
                     <p className = {styles.texto}>
                         ¡Prepárate para jugar y <br/>
                         disfrutar al máximo en la cancha!</p>
-                    <button className = {styles.boton}>
-                        ver partidos
-                    </button>
                 </div>
             </div>
             <Contacto/>
